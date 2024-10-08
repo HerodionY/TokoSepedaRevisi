@@ -1,4 +1,4 @@
-@extends('themes.indotoko.layouts.app')
+@extends('themes.default.layouts.app')
 
 @section('content')
 <section class="breadcrumb-section pb-4 pb-md-4 pt-4 pt-md-4">
@@ -68,7 +68,7 @@
                     </div>
                     <hr class="my-6">
                     <div class="product-select mt-3 row justify-content-start g-2 align-items-center">
-                        @include ('themes.indotoko.shared.flash')
+                        @include ('themes.default.shared.flash')
                         {{ html()->form('post', route('carts.store'))->open() }}
                         <input type="hidden" name="product_id" value="{{ $product->id }}"/>
                         <div class="row">

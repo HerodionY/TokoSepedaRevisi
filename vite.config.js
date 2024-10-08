@@ -8,11 +8,11 @@ export default defineConfig({
                 'resources/sass/app.scss',
                 'resources/js/app.js',
                 
-                'resources/views/themes/indotoko/assets/css/main.css',
-                'resources/views/themes/indotoko/assets/plugins/jqueryui/jquery-ui.css',
+                'resources/views/themes/default/assets/css/main.css',
+                'resources/views/themes/default/assets/plugins/jqueryui/jquery-ui.css',
 
-                'resources/views/themes/indotoko/assets/js/main.js',
-                'resources/views/themes/indotoko/assets/plugins/jqueryui/jquery-ui.min.js',
+                'resources/views/themes/default/assets/js/main.js',
+                'resources/views/themes/default/assets/plugins/jqueryui/jquery-ui.min.js',
             ],
             refresh: true,
         }),
